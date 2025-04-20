@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build directories
+build/
+dist/
+dist-ssr/
+
+# OS-specific files
+.DS_Store
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Windows specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Other optional ignores
+yarn.lock      # Ignore only if using npm or pnpm, not yarn
+package-lock.json  # Only ignore if using Yarn
